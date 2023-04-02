@@ -20,7 +20,7 @@
           },
           "name": {
             "@id": "vocab:name",
-            "@type": "xsd:integer"
+            "@type": "xsd:string"
           },
           "company": {
             "@id": "vocab:company",
