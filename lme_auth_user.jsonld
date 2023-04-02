@@ -5,8 +5,8 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "lme_auth_user": {
-        "@id": "https://raw.githubusercontent.com/zumikavvayi/ssi_schema/main/lme_auth_user.jsonld#lme_auth_user",
+      "Lme_auth_user": {
+        "@id": "https://raw.githubusercontent.com/zumikavvayi/ssi_schema/main/lme_auth_user.jsonld#Lme_auth_user",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -20,7 +20,7 @@
           },
           "name": {
             "@id": "vocab:name",
-            "@type": "xsd:string"
+            "@type": "xsd:integer"
           },
           "company": {
             "@id": "vocab:company",
