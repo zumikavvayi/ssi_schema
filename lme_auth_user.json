@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://github.com/zumikavvayi/ssi_schema/blob/main/lme_auth_user.jsonld",
-        "jsonSchema": "https://github.com/zumikavvayi/ssi_schema/blob/main/lme_auth_user.json"
+        "jsonLdContext": "https://raw.githubusercontent.com/zumikavvayi/ssi_schema/main/lme_auth_user.jsonld",
+        "jsonSchema": "https://raw.githubusercontent.com/zumikavvayi/ssi_schema/main/lme_auth_user.json"
       }
     },
     "required": [
