@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "lme_auth_user": {
+        "@id": "https://github.com/zumikavvayi/ssi_schema/blob/main/.lme_auth_userjsonld#lme_auth_user",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/zumikavvayi/ssi_schema/blob/main/lme_id_vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "employeeid": {
+            "@id": "vocab:employeeid",
+            "@type": "xsd:integer"
+          },
+          "name": {
+            "@id": "vocab:name",
+            "@type": "xsd:String"
+          }
+          "company": {
+            "@id": "vocab:company",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
