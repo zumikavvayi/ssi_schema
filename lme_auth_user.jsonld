@@ -20,11 +20,11 @@
           },
           "name": {
             "@id": "vocab:name",
-            "@type": "xsd:String"
-          }
+            "@type": "xsd:string"
+          },
           "company": {
             "@id": "vocab:company",
-            "@type": "xsd:string"
+            "@type": "xsd:integer"
           }
         }
       }
