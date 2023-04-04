@@ -27,6 +27,33 @@
             "@type": "xsd:integer"
           }
         }
+      },
+      "Lme_user": {
+        "@id": "https://raw.githubusercontent.com/zumikavvayi/ssi_schema/main/lme_auth_user.jsonld#Lme_user",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/zumikavvayi/ssi_schema/main/lme_id_vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "employeeid": {
+            "@id": "vocab:employeeid",
+            "@type": "xsd:integer"
+          },
+          "name": {
+            "@id": "vocab:name",
+            "@type": "xsd:string"
+          },
+          "company": {
+            "@id": "vocab:company",
+            "@type": "xsd:integer"
+          },
+          "idexpiry": {
+            "@id": "vocab:idexpiry",
+            "@type": "xsd:string"
+          }
+        }
       }
     }
   ]
